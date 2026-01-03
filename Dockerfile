@@ -1,6 +1,6 @@
 FROM node:20-slim
 WORKDIR /app
-RUN npm install -g supergateway @modelcontextprotocol/server-github
+RUN npm install -g supergateway
 ENV PORT=8080
 ENV GITHUB_PERSONAL_ACCESS_TOKEN=""
 EXPOSE 8080
